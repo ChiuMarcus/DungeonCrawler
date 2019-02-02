@@ -9,7 +9,11 @@ public class character {
     private ArrayList<Integer> stats;
     private ArrayList<String> inventory;
 
-    character(String firstName, String lastName, String race, String charClass) {
+    character(String newFN, String newLN, String newRc, String newCl) {
+        firstName = newFN;
+        lastName = newLN;
+        race = newRc;
+        charClass = newCl;
 
     }
 }
